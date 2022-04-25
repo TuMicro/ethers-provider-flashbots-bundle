@@ -1,5 +1,11 @@
 Forked from https://github.com/flashbots/ethers-provider-flashbots-bundle/
 
+Publishing to npm:
+```
+npm run prepare
+npm publish --access public
+```
+
 # ethers-provider-flashbots-bundle
 
 This repository contains the `FlashbotsBundleProvider` ethers.js provider, an additional `Provider` to `ethers.js` to enable high-level access to `eth_sendBundle` and `eth_callBundle` rpc endpoint on [mev-relay](https://github.com/flashbots/mev-relay-js). **`mev-relay` is a hosted service; it is not necessary to run `mev-relay` or `mev-geth` to proceed with this example.** 
